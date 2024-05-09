@@ -1,0 +1,11 @@
+.title_container {
+    display: inline-block;
+}
+
+#tartalom {
+    text-align: left;
+}
+
+figcaption {
+    text-align: center !important;
+}

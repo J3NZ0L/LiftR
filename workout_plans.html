@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifR Contact us</title>
+    <!-- CSS: -->
+
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap reference-->
+    <!-- javascript for bootstrap navbar -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <!-- Icon fonts stylesheet (bootstrap) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- my css files-->
+    <!-- css for all of LiftR pages -->
+    <link rel="stylesheet" href="./css/common_styles.css">
+    <!-- specific css for index.html -->
+    <link rel="stylesheet" href="./css/wo_styles.css">
+
+    <!-- css rules for printing -->
+    <link rel="stylesheet" href="./css/print.css">
+
+    <!-- Javascript -->
+    <script src="./script/liftr.js"></script>
+    <script src="./script/styleswitch.js"></script>
+
+</head>
+
+<body class="bg-white">
+
+
+
+    <header>
+        <div class="container-fluid p-0">
+
+            <div id="outer-triangle" class="mt-1"></div>
+            <div class="triangle" id="triangle"></div> <!-- triangle -->
+
+
+            <div class="row g-0 bg-black">
+
+                <nav id="tartalomraugras">
+                    <!-- legyen elrejtve a képernyőről -->
+                    <h2 class="visually-hidden">Ugrás az oldalon belül</h2>
+                    <!-- legyen elrejtve a képernyőről, de amikor fókuszt kap, jelenjen meg -->
+                    <a href="#tartalom" class="visually-hidden-focusable">Ugrás a tartalomra</a>
+                </nav> <!-- tartalomugras nav -->
+
+                <div class="col-4">
+                    <div id="housebuttoncontainer">
+                        <a href="index.html" role="button">
+                            <i class="bi bi-house-fill color-white"></i>
+                        </a>
+                    </div>
+                </div> <!-- home button -->
+
+                <div class="col-4 tothetop navbar-top">
+                    <nav class="navbar navbar-expand-lg bg-black rounded-custom py-0 mt-2 mx-auto">
+                        <div class="container-fluid">
+                            <h2 class="d-block d-lg-none color-light-grey">LiftR</h2>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#topNav" aria-controls="topNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="topNav">
+                                <ul class="navbar-nav mx-auto">
+                                    <li class="nav-item mx-auto">
+                                        <a class="nav-link color-light-grey" href="workout_plans.html">Workout plans</a>
+                                    </li>
+                                    <li class="nav-item mx-auto">
+                                        <a class="nav-link text-white" href="nutrition_guides.html">Nutrition</a>
+                                    </li>
+                                    <li class="nav-item mx-auto">
+                                        <a class="nav-link text-white" href="contact_us.html">Contact us</a>
+                                    </li>
+                                </ul>
+                            </div> <!-- collapse navbar elements -->
+                        </div> <!-- fluid container -->
+                    </nav> <!-- navbar -->
+                </div> <!-- main nav -->
+
+                <div class="col-4 tothetop"> 
+                    <nav id="styleswitch">
+						<label for="styleSwitcher">Stílus: </label>
+						<select id="styleSwitcher">
+						<option value="normal">Normál</option>
+						<option value="large">Nagy betűméret</option>
+						</select>
+					</nav>  
+                </div>
+
+            </div> <!-- row -->
+
+        </div> <!-- header container -->
+
+    </header>
+
+    <main>
+        <section> <!-- workout plan -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-7 col-12 ms-lg-5 ms-md-3 ms-0 mt-5">
+                        <div class="title_container">
+                        <h1 id="tartalom">LiftR Workout plans</h1>
+                        <aside id="guarantee-aside-top">
+                            <h6>Guaranteed success!*</h6>
+                        </aside>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- (.col-lg-4.col-sm-12>figure>figcaption+img.fluid)*3 -->
+                    <div class="col-lg-4 col-md-6 col-12 mx-auto">
+                        <figure >
+                            <figcaption class="mb-2 ms-2 h5">Strength plan</figcaption>
+                            <a target="_blank" href="./media/wp-full/wp1.jpg" class="thumbnail">
+                                <img src="./media/wp-thumbnails/wp1.jpg" alt="Strong man lifting a lot of weight"
+                                    class="img-fluid mx-auto d-block">
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mx-auto">
+                        <figure>
+
+                            <figcaption class="mb-2 ms-2 h5">Hypertrophy plan</figcaption>
+                            <a target="_blank" href="./media/wp-full/wp2.jpg" class="thumbnail">
+                                <img src="./media/wp-thumbnails/wp2.jpg" alt="Ripped woman working out"
+                                    class="img-fluid mx-auto d-block">
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mx-auto">
+                        <figure>
+                            <figcaption class="mb-2 ms-2 h5">Bodyweight plan</figcaption>
+                            <a target="_blank" href="./media/wp-full/wp3.jpg" class="thumbnail">
+                                <img src="./media/wp-thumbnails/wp3.jpg" alt="Man working out in the open"
+                                    class="img-fluid mx-auto d-block">
+                            </a>
+                        </figure>
+                    </div>
+                </div> <!-- row -->
+            </div>
+
+        </section> <!-- workout plans -->
+        
+        <section> <!-- example plan -->
+            <div class="container">
+                <div class="table-responsive">
+                    <table class="table table-hover table-bordered">
+                        <caption class="ms-4">
+                            <h5><strong>Example plan:</strong></h5>
+                            <details>
+                                <summary>Help</summary>
+                                <p>In the table you can find an example of a workout plan, with detailed exercises for
+                                    each session. (but keep in mind that this is nothing more than an example, it does
+                                    not necessarily fit your body type, goals and needs)</p>
+                            </details>
+                        </caption>
+                        <thead>
+                            <tr class="table-secondary">
+                                <th>Hypertrophy plan</th>
+                                <th>Target muscles</th>
+                                <th>1. exercise</th>
+                                <th>2. exercise</th>
+                                <th>3. exercise</th>
+                                <th>4. exercise</th>
+                                <th>5. exercise</th>
+                                <th>6. exercise</th>
+                                <th>7. exercise</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Day 1</td>
+                                <td>Chest\Shoulders\Triceps</td>
+                                <td>Smith Machine 30° Incline Press 5 sets</td>
+                                <td>Shoulder Press Machine 4 sets</td>
+                                <td>Cable Flies 3 sets</td>
+                                <td>Triceps Overhead Cable Rope Extensions 4 sets</td>
+                                <td>Triceps Cable with Rope 3 sets</td>
+                                <td>Triceps Cable Pushdowns in front of Body 3 sets</td>
+                                <td>Forearm Extensions with Dumbbells 3 sets</td>
+                            </tr>
+                            <tr>
+                                <td>Day 2</td>
+                                <td> Back\Biceps</td>
+                                <td>Machine wide Grip Pulldowns 3 sets</td>
+                                <td>Cable narrow Grip Pulldowns 3 sets</td>
+                                <td>Machine wide Grip Rows 4 sets</td>
+                                <td>Lat Pullovers on Cable 3 sets</td>
+                                <td>EZ Bar Biceps Curls 3 sets </td>
+                                <td>Cable Bicep Curls behind the Back 3 sets</td>
+                                <td>Forearm Flexion with Dumbbells 3 sets</td>
+                            </tr>
+                            <tr>
+                                <td>Day 3</td>
+                                <td>Legs</td>
+                                <td>Squats 5 sets</td>
+                                <td>Romanian Deadlifts 3 sets</td>
+                                <td>Bulgarian split Squats 3 sets</td>
+                                <td>Lying Hamstring Curls 3 sets</td>
+                                <td>Sitting Quadriceps Extensions 3 sets</td>
+                                <td>Sitting Calf Raises 3 sets</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Day 4</td>
+                                <td>Rest day</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section> <!-- example plan -->
+
+        <section> <!-- example video -->
+            <!-- .row>.col-lg-3.col-md-1.d-md-block.d-none -->
+            <div class="container">
+                <div class="row mt-3">
+                    <div class="col-lg-3 col-12 ps-lg-5 ps-2">
+                        <h5>Example exercise video:</h5>
+                    </div>
+                    <div class="col-lg-6 col-12 col-12 mt-lg-4">
+                        <video class="ratio ratio-16x9" controls src="media/video/Sam_Sulek_squatting.mp4"
+                            poster="media/video/Sam_Sulek_thumbnail.png" width="750"></video>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <h5 id="transcription"><a target="_blank" href="./video_transcript.html">Transcription for the video</a></h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
